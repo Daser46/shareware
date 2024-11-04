@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id = "@+id/card">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/itemImage"
+                android:layout_width="match_parent"
+                android:layout_height="271dp"
+                android:src="@drawable/iphone" />
+
+            <TextView
+                android:id="@+id/itemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item 01"
+                android:textSize = "20sp"
+                android:layout_centerHorizontal = "true"
+                android:layout_below = "@id/itemImage"
+                android:layout_marginBottom = "20sp"/>
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemName"
+                android:layout_marginLeft="20sp"
+                android:layout_toRightOf="@id/personIcon"
+                android:text="User001" />
+            <TextView
+                android:id="@+id/itemCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="itemCode"
+                android:layout_below = "@id/itemName"
+                android:layout_marginLeft = "20sp"
+                android:layout_toRightOf = "@id/itemIcon"/>
+
+            <ImageView
+                android:id="@+id/personIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemName"
+                android:layout_marginLeft="20sp"
+                android:src="@drawable/person" />
+
+            <ImageView
+                android:id="@+id/itemIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/items"
+                android:layout_centerHorizontal = "true"
+                android:layout_below = "@id/itemName"
+                android:layout_marginLeft = "20sp"/>
+
+            <TextView
+                android:id="@+id/conditionField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemIcon"
+                android:layout_marginLeft = "20sp"
+                android:layout_marginTop = "20sp"
+                android:text="Condition" />
+            <TextView
+                android:id="@+id/condition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="new"
+                android:layout_below = "@id/itemIcon"
+                android:layout_marginLeft = "20sp"
+                android:layout_marginTop = "20sp"
+                android:layout_toRightOf = "@id/conditionField"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

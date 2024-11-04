@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.221" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/drawable/add.xml" value="0.221" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/drawable/arrow.xml" value="0.2445" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/drawable/circleshape.xml" value="0.2055" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/drawable/home.xml" value="0.2045" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/drawable/ic_baseline_feedback_24.xml" value="0.1" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/drawable/info.xml" value="0.1" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/drawable/items.xml" value="0.221" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/drawable/map.xml" value="0.2045" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/drawable/message.xml" value="0.221" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/drawable/notifications.xml" value="0.221" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/drawable/person.xml" value="0.2045" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/drawable/transparent_bg.xml" value="0.264" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/layout/activity_app.xml" value="0.2640625" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/layout/activity_main.xml" value="0.2640625" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/layout/activity_reg.xml" value="0.2640625" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/layout/fragment_add.xml" value="0.23324275362318841" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/layout/fragment_edit_details.xml" value="0.271875" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/layout/fragment_home.xml" value="0.18885869565217392" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/layout/fragment_item.xml" value="0.3072916666666667" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/layout/fragment_map.xml" value="0.14035087719298245" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/layout/fragment_profile.xml" value="0.4548989113530327" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/layout/layout.xml" value="0.2864583333333333" />
+        <entry key="..\:/Myprojects/sample/ShareWare2/app/src/main/res/menu/bottom_nav.xml" value="0.278125" />
+        <entry key="..\:/Projects/ShareWare2/app/src/main/res/drawable/info.xml" value="0.3405" />
+        <entry key="..\:/Projects/ShareWare2/app/src/main/res/drawable/items.xml" value="0.3405" />
+        <entry key="..\:/Projects/ShareWare2/app/src/main/res/layout/activity_app.xml" value="0.3625" />
+        <entry key="..\:/Projects/ShareWare2/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Projects/ShareWare2/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Projects/ShareWare2/app/src/main/res/layout/activity_reg.xml" value="0.25" />
+        <entry key="..\:/Projects/ShareWare2/app/src/main/res/layout/card_view.xml" value="0.20208333333333334" />
+        <entry key="..\:/Projects/ShareWare2/app/src/main/res/layout/fragment_add.xml" value="0.25317028985507245" />
+        <entry key="..\:/Projects/ShareWare2/app/src/main/res/layout/fragment_edit_details.xml" value="0.35190217391304346" />
+        <entry key="..\:/Projects/ShareWare2/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Projects/ShareWare2/app/src/main/res/layout/fragment_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/ShareWare2/app/src/main/res/layout/fragment_item_view.xml" value="0.5" />
+        <entry key="..\:/Projects/ShareWare2/app/src/main/res/layout/fragment_map.xml" value="0.3625" />
+        <entry key="..\:/Projects/ShareWare2/app/src/main/res/layout/fragment_profile.xml" value="0.3625" />
+        <entry key="..\:/Projects/ShareWare2/app/src/main/res/layout/fragment_settings.xml" value="0.2826086956521739" />
+        <entry key="..\:/Projects/ShareWare2/app/src/main/res/layout/item_layout.xml" value="0.3614583333333333" />
+        <entry key="..\:/Projects/ShareWare2/app/src/main/res/menu/bottom_nav.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/Brothers.DESKTOP-99CQM5L/AndroidStudioProjects/ShareWare2/app/src/main/res/drawable/home.xml" value="0.2105" />
+        <entry key="..\:/Users/Brothers.DESKTOP-99CQM5L/AndroidStudioProjects/ShareWare2/app/src/main/res/drawable/map.xml" value="0.2105" />
+        <entry key="..\:/Users/Brothers.DESKTOP-99CQM5L/AndroidStudioProjects/ShareWare2/app/src/main/res/drawable/person.xml" value="0.2105" />
+        <entry key="..\:/Users/Brothers.DESKTOP-99CQM5L/AndroidStudioProjects/ShareWare2/app/src/main/res/layout/activity_app.xml" value="0.25" />
+        <entry key="..\:/Users/Brothers.DESKTOP-99CQM5L/AndroidStudioProjects/ShareWare2/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Users/Brothers.DESKTOP-99CQM5L/AndroidStudioProjects/ShareWare2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Brothers.DESKTOP-99CQM5L/AndroidStudioProjects/ShareWare2/app/src/main/res/layout/activity_main2.xml" value="0.2203125" />
+        <entry key="..\:/Users/Brothers.DESKTOP-99CQM5L/AndroidStudioProjects/ShareWare2/app/src/main/res/layout/activity_reg.xml" value="0.25" />
+        <entry key="..\:/Users/Brothers.DESKTOP-99CQM5L/AndroidStudioProjects/ShareWare2/app/src/main/res/menu/bottom_nav.xml" value="0.2916666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

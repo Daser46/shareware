@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemViewFragment"
+    android:background = "@color/white">
+
+
+    <ImageView
+        android:id="@+id/displayImage"
+        android:layout_width="match_parent"
+        android:layout_height="269dp"
+        android:layout_marginBottom="20sp"
+        android:src="@drawable/iphone" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="107dp"
+        android:layout_height="84dp"
+        android:layout_below="@id/displayImage"
+        android:layout_toLeftOf="@id/mainImage"
+        android:src="@drawable/iphone"
+        app:tintMode="add" />
+
+    <ImageView
+        android:id="@+id/mainImage"
+        android:layout_width="120dp"
+        android:layout_height="94dp"
+        android:layout_below="@id/displayImage"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/iphone" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="107dp"
+        android:layout_height="84dp"
+        android:layout_below="@id/displayImage"
+        android:layout_toRightOf="@id/mainImage"
+        android:src="@drawable/iphone" />
+
+    <ImageView
+        android:id="@+id/personIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/person"
+        android:layout_marginLeft = "20sp"
+        android:layout_below = "@id/itemName"/>
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="20sp"
+        android:text="Iphone"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ownerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user001"
+        android:layout_below = "@id/itemName"
+        android:layout_toRightOf = "@id/personIcon"/>
+
+    <ImageView
+        android:id="@+id/itemIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/items"
+        android:layout_below = "@id/itemName"
+        android:layout_centerHorizontal= "true"/>
+
+    <TextView
+        android:id="@+id/itemCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user001"
+        android:layout_below = "@id/itemName"
+        android:layout_toRightOf = "@id/itemIcon"/>
+
+    <TextView
+        android:id="@+id/statusField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status :"
+        android:layout_below = "@id/personIcon"
+        android:layout_margin = "20sp"/>
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/personIcon"
+        android:layout_marginTop="20sp"
+        android:layout_toRightOf="@id/statusField"
+        android:text="available" />
+
+    <TextView
+        android:id="@+id/categoryField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category :"
+        android:layout_below = "@id/personIcon"
+        android:layout_marginTop = "20sp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/categoryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electronics"
+        android:layout_below = "@id/personIcon"
+        android:layout_toRightOf = "@id/categoryField"
+        android:layout_margin = "20sp"/>
+
+    <ImageView
+        android:id="@+id/infoIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statusField"
+        android:src="@drawable/info"
+        android:layout_marginLeft = "20sp"
+        />
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statusField"
+        android:layout_marginLeft="20sp"
+        android:layout_toRightOf="@id/infoIcon"
+        android:text="This is description" />
+
+    <ImageView
+        android:id="@+id/locationIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/map"
+        android:layout_marginLeft = "20sp"
+        android:layout_marginTop= "20sp"
+        android:layout_below="@id/infoIcon"
+        />
+
+    <TextView
+        android:id="@+id/locationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoIcon"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_toRightOf="@id/locationIcon"
+        android:text="location" />
+
+    <Button
+        android:id="@+id/reqButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20sp"
+        android:text="Request"
+        app:backgroundTint="@color/blue_main" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_alignParentBottom = "true"
+        android:layout_marginLeft = "20sp"/>
+
+    <TextView
+        android:id="@+id/conditionField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoIcon"
+        android:layout_centerHorizontal = "true"
+        android:layout_marginTop = "20sp"
+        android:text="Codition :" />
+    <TextView
+        android:id="@+id/condition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoIcon"
+        android:layout_toRightOf = "@id/conditionField"
+        android:layout_marginTop = "20sp"
+        android:layout_marginLeft = "20sp"
+        android:text="New" />
+
+
+
+
+</RelativeLayout>
